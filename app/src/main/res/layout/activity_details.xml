@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activities.DetailsActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/journal_icone_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        tools:targetApi="jelly_bean" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        android:shadowColor="@color/colorPrimary"
+        android:fontFamily="sans-serif"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="30"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        tools:targetApi="jelly_bean" />
+
+</RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/rdv_detail_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="5dp"
+        android:foregroundGravity="center"
+        android:layout_marginTop="5dp">
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@color/RoseClair"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/journal_icone_text_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        tools:targetApi="jelly_bean" />
+
+<RelativeLayout
+    android:id="@+id/mlinear"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginStart="50dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:targetApi="jelly_bean"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        tools:targetApi="jelly_bean"
+        android:layout_toEndOf="@id/title"
+        android:layout_toRightOf="@id/title"
+        android:layout_marginStart="100dp" />
+
+
+    <ImageView
+        android:id="@+id/id_image_dots"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_dots"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mlinear"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

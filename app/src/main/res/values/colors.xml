@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#f0acc3</color>
+    <color name="RoseClair">#f9dff0</color>
+
+    <color name="colorAccent">#4f8901</color>
+    <color name="colorVertClair">#a8d681</color>
+    <color name="colorVertClairPlus">#daf4c6</color>
+
+    <color name="colorPrimary">#e54370</color>
+</resources>

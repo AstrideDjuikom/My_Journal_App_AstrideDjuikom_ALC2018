@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/colorVertClair">
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="A" android:drawable="@color/RoseClair">
+            <menu >
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="@string/home" />
+
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="@string/gallery" />
+            </menu>
+        </item>
+
+
+        <item android:title="B" android:drawable="@color/RoseClair" >
+            <menu>
+                <item
+                    android:id="@+id/fonts_and_colors"
+                    android:title="@string/colors_and_fonts" />
+
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="@string/settings" />
+
+                <item
+                    android:id="@+id/nav_aboutus"
+                    android:title="@string/about_us" />
+
+            </menu>
+        </item>
+
+
+
+        <item android:title="C" android:drawable="@color/RoseClair" >
+            <menu >
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout" />
+
+                <item
+                    android:id="@+id/nav_revoke"
+                    android:title="@string/revoke" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

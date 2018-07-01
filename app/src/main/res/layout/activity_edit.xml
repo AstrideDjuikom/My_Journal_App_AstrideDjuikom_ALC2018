@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AddEntryActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/entry_date_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/date_of_today"
+            android:focusable="false"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/entry_hour_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_hour"
+            android:inputType="time"
+            android:focusable="false"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+        <EditText
+            android:id="@+id/entry_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_title"
+            android:inputType="text|textCapWords"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/entry_content_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_content"
+            android:inputType="text|textMultiLine"
+            android:textAlignment="center"
+            android:cursorVisible="true"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="70dp"
+    android:layout_marginStart="70dp">
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:shadowColor="@color/colorVertClair"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="30"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/cancel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorVertClair"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="30"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:text="@string/save"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+</LinearLayout>
+
+</LinearLayout>
+
