@@ -26,13 +26,13 @@ Sync if necessary
 
 The screenshots shows you some interfaces of My Journal App
 
-![newEntry](ProjectScreenshots/newEntry)
-![ViewallEntries](ProjectScreenshots/MAIN)
-![detail infos](ProjectScreenshots/details)
-![main menu](ProjectScreenshots/mainMenu)
-![edit Entry](ProjectScreenshots/EditEntry)
-![login](ProjectScreenshots/logIN)
-![choose account](ProjectScreenshots/chooseAccount)
+![newEntry](ProjectScreenshots/newEntry.PNG)
+![ViewallEntries](ProjectScreenshots/MAIN.PNG)
+![detail infos](ProjectScreenshots/details.PNG)
+![main menu](ProjectScreenshots/mainMenu.PNG)
+![edit Entry](ProjectScreenshots/EditEntry.PNG)
+![login](ProjectScreenshots/logIN.PNG)
+![choose account](ProjectScreenshots/chooseAccount.PNG)
 
 
 Android Version Targeting
